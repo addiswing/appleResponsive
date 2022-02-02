@@ -1,0 +1,425 @@
+/* General Styling*/
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	color: #06c; 
+}
+img {
+	max-width: 100%;
+}
+.white {
+	color: #fff;
+}
+.black {
+	color: #1d1d1f;
+}
+.grey {
+	color: #86868b;
+}
+.top-50 {
+	margin-top: 50px;
+}
+/* Header Style */
+.nav-wrapper {
+    background: rgba(0,0,0,0.8);
+    font-size: 0.85em;
+    font-weight: 200;
+  }
+  .nav-wrapper ul li a {
+      color: #fff;
+  }
+  .navbar-toggler {
+      color: #fff;
+  }
+  .nav-item {
+      text-align: left !important;
+      padding: 4px 0;
+      border-bottom: 1px solid #4b4b4b;
+  }
+  .cart2{
+      display: none;
+  }
+
+
+    /* Footer Styling */
+.footer-wrapper {
+    background-color: #f5f5f7;
+    color: #86868b;
+    font-size: .7em;
+  }
+  .footer-wrapper ul {
+      list-style: none;
+      padding-bottom: 10px;
+      padding-inline-start: 0px;
+  }
+  .footer-wrapper ul a {
+      color: #515154;
+  }
+  .my-apple-wrapper {
+      padding-bottom: 15px;
+    margin-top: 10px;
+  }
+  .copyright {
+      margin-top: 15px;
+  }
+  .footer-country {
+      margin-top: 8px;
+  }
+  .flag-wrapper {
+      display: inline-block;
+      vertical-align: middle;
+      padding-right: 5px;
+  }
+  .footer-country-name{
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .footer-links-terms ul {
+      display: flex;
+  }
+  .footer-links-terms ul li {
+      padding: 0 10px;
+      border-right: 1px solid #d2d2d7;
+  }
+  .footer-links-terms ul li:first-child {
+      padding-left: 0;
+  }
+  .footer-links-terms ul li:last-child {
+      border-right: 0;
+  }
+  
+  .footer-links-wrapper h3 {
+      font-size: 12px;
+      font-weight: 600;
+      color: #1d1d1f;
+  }
+  .footer-wrapper ul li{
+      padding: 4px 0;
+  }
+  .upper-text-container {
+      border-bottom: 1px solid #d2d2d7;
+      padding: 17px 0 10px;
+      margin-bottom: 20px;
+  }
+  .upper-text-container a {
+      color: #515154;
+  }
+
+/* Alert section */
+.container-shop-online{
+    text-align: center;
+    padding-top: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.first-highlight-wrapper{
+    background-image: url("../images/heroes/iphone-12/iphone_12_updated__jepm2xpxncuy_small_2x.jpg");
+    text-align: center;
+    height: 548px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #fbfbfd;
+    color: black;
+    margin-bottom: 10px;
+}
+.first-title-wrapper {
+    font-weight: bolder;
+    font-size:  30px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-brief-description {
+    padding-bottom: 6px;
+}
+.color{
+    color: #06c;
+}
+.first-price-wrapper{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.second-highlight-wrapper{
+    background-image: url("../images/heroes/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_small_2x.jpg");
+    text-align: center;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #fbfbfd;
+    color: white;
+}
+.third-highlight-wrapper{
+    background-image: url("../images/heroes/iPad-pro/hero_ipad_pro_non_avail__fcrsmhs4b7ma_small.jpg");
+    text-align: center;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #fbfbfd;
+    color: white;
+    margin-top: 8px;
+}
+.third-title-wrapper{
+    font-weight: bolder;
+font-size:  30px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fourth-highlight-wrapper .left-side-wrapper .left-side-container {
+background-image: url("../images/promos/imac/promo_imac__crg641tip4q6_small_2x.jpg");
+}
+.test {
+padding-left: 0;
+padding-right: 0;
+}
+.imac{
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    font-family: Arial, Helvetica, sans-serif
+}
+.logowrapper{
+    padding-bottom: 10px;
+}
+.fourth-highlight-wrapper .right-side-wrapper .right-side-container{
+    background-image: url("../images/promos/watch-series-6/promo_watch_series_6_lte__f8lrasjnry2y_small_2x.jpg");
+
+}
+.fifth-highlight-wrapper .left-side-wrapper .left-side-container{
+    background-image: url("../images/promos/back-to-school/promo_bts__bg3cb4kaoqoi_small_2x.jpg");
+}
+.fifth-highlight-wrapper .right-side-wrapper .right-side-container{
+    background-image: url("../images/promos/theater/promo_tower_theatre__cxa7w21e4bsm_small_2x.jpg");}
+.description-wrapper{  
+ font-size: 32px;
+line-height: 1.125;
+font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;}
+.text-link a:after{
+    font-family: "fontAwesome";
+    content: '\F105';
+    padding-left: 5px;
+}
+.gap{
+    padding-top: 200px;
+}
+.text-link{ padding-top: 10px;}
+.sixth-highlight-wrapper .left-side-wrapper .left-side-container{
+    background-image: url("../images/promos/spatial/promo_spatial_audio_taylor_swift__d0ewry6j28qe_small_2x.jpg");
+}
+.sixth-highlight-wrapper .right-side-wrapper .right-side-container {
+    background-image: url("../images/promos/tv-plus-home-before-dark-s2/promo_coda__b4z92qy59piq_small_2x.jpg");}
+.fifth-title-wrapper{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 270px;
+}
+.fifth-text-link a:after{
+    font-family: "fontAwesome";
+    content: '\F105';
+    padding-left: 5px;
+}
+.fifth-text-link a{
+    color: #2997ff; 
+}
+.sixth-text-link a{
+    color: white;
+}
+.left-side-container, .right-side-container{
+  height: 515px;
+  text-align: center ;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  background-color: #fff;
+  padding-top: 35px;
+  margin-bottom: 10px;
+  background-position: center;
+background-size: cover;	
+}
+.links-wrapper ul {
+	list-style: none;
+}
+.links-wrapper {
+  padding-top: 10px;
+}
+.links-wrapper ul li {
+	display: inline-block;
+	padding-right: 30px;
+}
+.links-wrapper ul li a {
+	color: #2997ff;
+	text-decoration: none;
+	font-size: 17px;
+}
+.links-wrapper ul li a:hover {
+	color: #000;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  padding-left: 6px;
+  font-weight: lighter;
+}
+.seven-text-link a:after{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f144";
+    padding-left: 5px;
+    color:white
+}
+.seven-text-link a{
+    color: white;
+     font-family: Arial, Helvetica, sans-serif; 
+     font-size: 20px;
+    }
+
+.logo-coda-wrapper img{
+    width: 220px;
+    height: 63px;
+}
+.logo-awards img{
+    width: 129px;
+    height: 63px;
+}
+.logo-awards {
+    padding-top: 250px;
+}
+
+.seven-text-link{
+    padding-top: 10px;
+} 
+.logo-tv-wrapper img{
+    width: 90px;
+}
+
+@media (min-width: 768px) {
+	/*Nav bar*/
+	.nav-item {
+		text-align: center !important;
+		padding: 0;
+		border-bottom: 0px;
+	}
+.cart1{
+    display:none
+}
+.cart2{
+    display: block;
+}
+/*Footer styling*/
+.my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7
+}
+/*first-highlight-wrapper*/
+.first-highlight-wrapper{
+    background-image: url("../images/heroes/iphone-12/iphone_12_updated__jepm2xpxncuy_mediumtall_2x.jpg");
+min-height: 692px;
+} 
+.br1 br, .br2 br, .br3{
+display: none;
+}
+.second-highlight-wrapper{
+    background-image: url("../images/heroes/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_mediumtall_2x.jpg");
+min-height: 692px;
+}
+.third-highlight-wrapper{
+    min-height: 692px;
+background-image: url("../images/heroes/iPad-pro/hero_ipad_pro_non_avail__fcrsmhs4b7ma_mediumtall_2x.jpg");
+}
+.fourth-highlight-wrapper .left-side-wrapper .left-side-container {
+    background-image: url("../images/promos/imac/promo_imac__crg641tip4q6_medium_2x.jpg");
+    margin: 5px 5px 5px 10px;
+  }
+.fourth-highlight-wrapper .right-side-wrapper .right-side-container{
+    background-image: url("../images/promos/watch-series-6/promo_watch_series_6_lte__f8lrasjnry2y_medium_2x.jpg");
+    margin:  5px 10px 5px 5px;
+}
+.fifth-highlight-wrapper .left-side-wrapper .left-side-container{
+    background-image: url("../images/promos/back-to-school/promo_bts__bg3cb4kaoqoi_medium_2x.jpg");
+margin: 5px 5px 5px 10px;
+}
+.fifth-highlight-wrapper .right-side-wrapper .right-side-container{
+    background-image: url("../images/promos/theater/promo_tower_theatre__cxa7w21e4bsm_medium_2x.jpg");
+margin: 5px 10px 5px 5px;
+}
+.sixth-highlight-wrapper .left-side-wrapper .left-side-container{
+    background-image: url("../images/promos/spatial/promo_spatial_audio_taylor_swift__d0ewry6j28qe_medium_2x.jpg");
+margin: 5px 5px 5px 10px;
+}
+.sixth-highlight-wrapper .right-side-wrapper .right-side-container{
+    background-image: url("../images/promos/tv-plus-home-before-dark-s2/promo_coda__b4z92qy59piq_medium_2x.jpg");
+margin: 5px 10px 5px 5px;
+}
+}
+
+/*media min 1069*/
+@media (min-width: 1069px){
+    .first-highlight-wrapper{
+        background-image: url("../images/heroes/iphone-12/iphone_12_updated__jepm2xpxncuy_large_2x.jpg");
+    }
+
+    .second-highlight-wrapper{
+        background-image: url("../images/heroes/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_large_2x.jpg");
+    }
+    .third-highlight-wrapper {
+        background-image: url("../images/heroes/iPad-pro/hero_ipad_pro_non_avail__fcrsmhs4b7ma_largetall_2x.jpg");
+    }
+    .fourth-highlight-wrapper .left-side-wrapper .left-side-container {
+        background-image: url("../images/promos/imac/promo_imac__crg641tip4q6_large_2x.jpg");  
+}
+.fourth-highlight-wrapper .right-side-wrapper .right-side-container{
+    background-image: url("../images/promos/watch-series-6/promo_watch_series_6_lte__f8lrasjnry2y_large_2x.jpg");
+}
+.fifth-highlight-wrapper .left-side-wrapper .left-side-container{
+    background-image: url("../images/promos/back-to-school/promo_bts__bg3cb4kaoqoi_large_2x.jpg");
+} 
+.fifth-highlight-wrapper .right-side-wrapper .right-side-container{
+    background-image: url("../images/promos/theater/promo_tower_theatre__cxa7w21e4bsm_large_2x.jpg");
+}
+.sixth-highlight-wrapper .left-side-wrapper .left-side-container{
+    background-image: url("../images/promos/spatial/promo_spatial_audio_taylor_swift__d0ewry6j28qe_large_2x.jpg");
+}
+.sixth-highlight-wrapper .right-side-wrapper .right-side-container{
+    background-image: url("../images/promos/tv-plus-home-before-dark-s2/promo_coda__b4z92qy59piq_large_2x.jpg");
+}}
+
+    /*Media Query*/
+/* Footer */
+@media (max-width: 768px){
+	.footer-links-wrapper ul {
+		display: none;
+	}
+	.footer-links-wrapper h3 {
+		padding: 10px 
+		border-bottom: 1px solid #ccc;
+	}
+	.footer-links-wrapper h3:after {
+		font-family: "FontAwesome";
+		content: "\f067";
+		padding-left: 10px;
+		position: absolute;
+		right: 25px;
+	}
+    .alert-text {
+		max-width: 85%;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 992px) {
+	/*Footer styling*/
+	.copyright {
+		margin-top: 10px;
+	}
+	.footer-country {
+		margin-top: 10px;
+	}
+	.footer-links-terms {
+		margin-top: 10px;
+	}	
+}
